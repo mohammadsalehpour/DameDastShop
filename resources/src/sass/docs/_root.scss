@@ -1,0 +1,23 @@
+//
+// Root
+//
+
+// Light mode
+@include theme-light() {
+    // Content
+	--kt-docs-page-bg-color: #{$docs-page-bg-color};
+
+	// Aside
+	--kt-docs-aside-bg-color: #{$docs-aside-bg-color};
+	--kt-docs-aside-box-shadow: #{$docs-aside-box-shadow};
+}
+
+// Dark mode
+@include theme-dark() {
+	// Content
+	--kt-docs-page-bg-color: #{$docs-page-bg-color-dark};
+
+	// Aside
+	--kt-docs-aside-bg-color: #{$docs-aside-bg-color-dark};
+	--kt-docs-aside-box-shadow: #{$docs-aside-box-shadow-dark};
+}
