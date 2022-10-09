@@ -1,6 +1,7 @@
-# store-app
-This is store application from DameDsat
+# DameDast Shop App
+This is Shop application from DameDsat
 
 
-## composer require laravel/jetstream
-
+## composer update
+## npm install
+## config database
